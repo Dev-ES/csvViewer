@@ -34,6 +34,9 @@
 			});
 			
 			
+			csvViewer.model.start();
+			
+			
 			QUnit.test( "csvViewer.view.setup is rendering", function( assert ) {
 			  assert.expect( 0 );
 			  return csvViewer.view.setup;
