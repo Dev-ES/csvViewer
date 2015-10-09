@@ -7,7 +7,7 @@ This POC focuses on indexedDB performance handling big datasets
 
 ##  Browser and cli testing
 
-If you want to run and test the code, you will need ***npm***, ***Node.js***. It will require ***grunt*** installed on the test environment.
+If you want to run and test the code, you will need ***Node.js*** and ***npm***. Also, It will require ***grunt*** installed on the test environment.
 
 Download this repository and uncompress to a given directory, lets assume: ***/var/html/www/csvViewer/***
 
