@@ -17,6 +17,7 @@ thirdparty/codebase4.4_std/imgs/dhxgrid_skyblue/sort_desc.gif
 thirdparty/codebase4.4_std/imgs/dhxlayout_skyblue/dhxlayout_sep_v.gif
 thirdparty/codebase4.4_std/imgs/dhxlayout_skyblue/dhxlayout_cell_btns.gif
 thirdparty/codebase4.4_std/imgs/dhxlayout_skyblue/dhxlayout_sep_h.gif
+thirdparty/codebase4.4_std/imgs/dhxlayout_skyblue/dhxlayout_cell_progress.gif
 
 
 thirdparty/codebase4.4_std/imgs/dhxtoolbar_skyblue/dhxtoolbar_arrow.gif
@@ -24,11 +25,10 @@ icons/empty.png
 icons/setup.png
 icons/dbinfo.png
 
+NETWORK:
 lib/csvViewer.js
 lib/csvViewer.view.js
 lib/csvViewer.view.setup.js
 lib/csvViewer.setup.js
 lib/csvViewer.settings.js
 lib/csvViewer.model.js
-
-NETWORK:
