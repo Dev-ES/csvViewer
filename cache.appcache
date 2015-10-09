@@ -24,10 +24,11 @@ icons/empty.png
 icons/setup.png
 icons/dbinfo.png
 
-NETWORK:
 lib/csvViewer.js
 lib/csvViewer.view.js
 lib/csvViewer.view.setup.js
 lib/csvViewer.setup.js
 lib/csvViewer.settings.js
 lib/csvViewer.model.js
+
+NETWORK:
