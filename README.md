@@ -9,7 +9,7 @@ This POC focuses on indexedDB performance handling big datasets
 
 If you want to run and test the code, you will need ***Node.js*** and ***npm***. Also, It will require ***grunt*** installed on the test environment.
 
-Download this repository and uncompress to a given directory, lets assume: ***/var/html/www/csvViewer/***
+Download this repository and uncompress to a given directory, lets assume: ***/var/www/html/csvViewer/***
 
 
 #### Step 1
@@ -32,7 +32,7 @@ Install grunt (if you don't have it installed):
 
 Now, on terminal, navigate to the project directory:
 
-    $ cd /var/html/www/csvViewer/
+    $ cd /var/www/html/csvViewer/
 
 
 Now start npm
