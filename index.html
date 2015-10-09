@@ -1,46 +1,40 @@
 <!DOCTYPE HTML>
-<html lang="pt-br" ><!-- manifest="cache.appcache" -->
+<html lang="pt-br" manifest="cache.appcache" -->
     <head>
         <meta charset="UTF-8">
-        
+        <title>Big Inventory</title>
 		<style>
-		html, body {
-			width: 100%;
-			height: 100%;
-			margin: 0px;
-			padding: 0px;
-			background-color: #ebebeb;
-			overflow: hidden;
-			font-family:arial;
-		}
+			html, body {
+				width: 100%;
+				height: 100%;
+				margin: 0px;
+				padding: 0px;
+				background-color: #ebebeb;
+				overflow: hidden;
+				font-family:arial;
+			}
 		</style>
-		
-		<script type="text/javascript" src="//cdn.dhtmlx.com.br/dhx/shim.js"></script>
-		<script type="text/javascript" src="//cdn.dhtmlx.com.br/dhx/dhx.js"></script>
+        <link rel="stylesheet" href="thirdparty/codebase4.4_std/dhtmlx.css">
+        <link rel="icon" href="/favicon.ico">
+        <script src="thirdparty/jquery.min.js"></script>
+        <script type="text/javascript" src="thirdparty/codebase4.4_std/dhtmlx.js"></script>
+        <script type="text/javascript" src="thirdparty/papaparse.js"></script>
 		<script type="text/javascript" src="lib/csvViewer.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-        <script src="thirdparty/papaparse.js"></script>
-        <script>
-		
-        
-		window.addEventListener('load', function(){
-			
-			console.log(window.location.host);
-			var call_config = {};
-		
-			csvViewer.start(call_config).then( function(response) {
-				
-				},function(response) {
-					
-			} );
-			
-			
-		}, false);
-        
-        </script>
-		
-     </head>
+		<script type="text/javascript" src="lib/csvViewer.view.js"></script>
+        <script type="text/javascript" src="lib/csvViewer.view.setup.js"></script>
+        <script type="text/javascript" src="lib/csvViewer.setup.js"></script>
+        <script type="text/javascript" src="lib/csvViewer.settings.js"></script>
+        <script type="text/javascript" src="lib/csvViewer.model.js"></script>
+		<script>
+			window.addEventListener('load', function()
+			{
+				var call_config = {};
+				csvViewer.start(call_config).then( function(response) {
+					},function(response) {				
+				} );
+			}, false);
+		</script>
+    </head>
     <body>
-    
     </body>
 </html>

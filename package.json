@@ -1,0 +1,35 @@
+{
+  "name": "csv-viewer",
+  "version": "0.0.1",
+  "description": "csvViewer - indexedDB proof of concept",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-qunit": "^0.7.0",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web2solutions/csvViewer.git"
+  },
+  "keywords": [
+    "csvViewer",
+    "indexedDB"
+  ],
+  "author": "José Eduardo Perotta de Almeida",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/web2solutions/csvViewer/issues"
+  },
+  "homepage": "https://github.com/web2solutions/csvViewer#readme",
+  "directories": {
+    "test": "test"
+  }
+}
