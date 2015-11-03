@@ -64,3 +64,37 @@ Now , if you want to run the test on **browser** (please see Step 1), type on te
 Then open the browser and reach the following address: 
 
 http://localhost:8282/test/t.html
+
+
+##  Running demo application
+
+#### Step 1
+
+Open and edit the file Gruntfile.js. Look for the following lines:
+
+If you want to test on **browser**, please set runInBackground as false in Gruntfile.js
+
+    runInBackground: false
+
+
+#### Step 2
+
+    $ grunt livetest
+
+Then open the browser and reach the following address: 
+
+http://localhost:8282/
+
+
+![1](http://i.imgur.com/R9a83Oj.png)
+
+![2](http://i.imgur.com/OjVOLop.png)
+
+![3](http://i.imgur.com/uW32ttO.png)
+
+![4](http://i.imgur.com/HInrON6.png)
+
+![5](http://i.imgur.com/vnTmCH2.png)
+
+![6](http://i.imgur.com/SU15FTb.png)
+
